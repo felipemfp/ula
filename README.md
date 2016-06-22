@@ -22,9 +22,9 @@ Seleção | Operação
 00111 | Deslocamento para Esquerda :white_check_mark:
 01000 | Deslocamento para Direita :white_check_mark:
 01001 | Deslocamento para Direita c/ Sinal :white_check_mark:
-01010 |
-01011 |
-01100 |
+01010 | ROTL
+01011 | ROTR
+01100 | SLT
 01101 |
 01111 |
 10000 |
@@ -43,3 +43,10 @@ Seleção | Operação
 11101 |
 11110 |
 11111 |
+
+---
+
+### Avaliação `22/06/2016`
+
+- **Questão 01** - Implementar uma operação `ROTL` e uma operação `ROTR`
+- **QUestão 02** - Implementar uma operação `SLT` (Set on less than)
