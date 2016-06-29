@@ -1,14 +1,13 @@
 ### 2º Etapa
 
-Contruir um Banco de Registradores para funcionar em conjunto com o a `ULA`.
+Contruir um Banco de Registradores para funcionar em conjunto com o a [ULA](/1-etapa.md).
 
-#### Observações
+#### Flip-Flop
 
-- **FLIP-FLOP**
-  - Tipos: `RS` `JK` `D` `T`
-  - Variações: `Mestre` `Escravo`
-  - Sensibilidades: `NIU+` `NIU-` `BS` `BD`
-  - Adições: `Entradas Assíncronas`
+- Tipos: `RS` `JK` `D` `T`
+- Variações: `Mestre` `Escravo`
+- Sensibilidades: `NIU+` `NIU-` `BS` `BD`
+- Adições: `Entradas Assíncronas`
 
 #### Flip-Flop D
 
