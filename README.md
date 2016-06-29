@@ -24,8 +24,8 @@ Seleção | Operação
 00111 | Deslocamento para Esquerda :white_check_mark:
 01000 | Deslocamento para Direita :white_check_mark:
 01001 | Deslocamento para Direita c/ Sinal :white_check_mark:
-01010 | ROTL
-01011 | ROTR
+01010 | ROTL :white_check_mark:
+01011 | ROTR :white_check_mark:
 01100 | SLT
 01101 |
 01111 |
