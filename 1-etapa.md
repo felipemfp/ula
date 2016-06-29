@@ -51,4 +51,4 @@ Seleção | Operação
 ### Avaliação `22/06/2016`
 
 - **Questão 01** - Implementar uma operação `ROTL` e uma operação `ROTR`
-- **QUestão 02** - Implementar uma operação `SLT` (Set on less than)
+- **Questão 02** - Implementar uma operação `SLT` (Set on less than)
