@@ -18,3 +18,9 @@ Contruir um Banco de Registradores para funcionar em conjunto com o a [ULA](/1-e
 - Linha do Tempo
 
 ![Linha do Tempo](http://www.gmcon.net/cirlog/img6/conten14.gif)
+
+- Observações 
+  - Sensível à borda positiva: reproduz a entrada para saída no clock `1`
+  - Sensível à borda negativa: reproduz a entrada para saída no clock `0`
+  - Sensível à nível positivo: reproduz a entrada na saída enquanto clock `1`
+  - Sensível à nível negativo: reproduz a entrada na saída enquanto clock `0`
