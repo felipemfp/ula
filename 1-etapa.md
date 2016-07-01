@@ -5,7 +5,7 @@ Construa uma `ULA` que permita a implatação de 32 operações. As 2 entradas d
 O projeto final deve ser um subcircuito.
 
 ```
-      
+
 a ⊡— │‾‾\  —⊙ S
       >  │  —⊙ overflow
 b ⊡— │__/  —⊙ zero
@@ -26,7 +26,7 @@ Seleção | Operação
 01001 | Deslocamento para Direita c/ Sinal :white_check_mark:
 01010 | ROTL :white_check_mark:
 01011 | ROTR :white_check_mark:
-01100 | SLT
+01100 | SLT :white_check_mark:
 01101 |
 01111 |
 10000 |
