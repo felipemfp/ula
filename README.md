@@ -49,8 +49,8 @@ Nº | Seleção | Operação
 23 | 10111 | Deslocamento para Esquerda **Imediato**
 24 | 11000 | Deslocamento para Direita **Imediato**
 25 | 11001 | Deslocamento para Direita c/ Sinal **Imediato**
-26 | 11010 | ROLT **Imediato**
-27 | 11011 | ROLR **Imediato**
+26 | 11010 | ROTL **Imediato**
+27 | 11011 | ROTR **Imediato**
 28 | 11100 | SLT **Imediato**
 29 | 11101 |
 30 | 11110 |
