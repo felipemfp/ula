@@ -21,8 +21,8 @@
 
 ## Operações
 
-# | Seleção | Operação
-- | ------- | --------
+Nº | Seleção | Operação
+--- | ------- | --------
 0 | 00000 | AND :white_check_mark:
 1 | 00001 | OR :white_check_mark:
 2 | 00010 | NAND :white_check_mark:
@@ -54,4 +54,4 @@
 28 | 11100 | SLT **Imediato**
 29 | 11101 |
 30 | 11110 |
-12 | 11111 |
+31 | 11111 |
