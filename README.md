@@ -39,19 +39,19 @@ Nº | Seleção | Operação
 13 | 01101 |
 14 | 01110 |
 15 | 01111 |
-16 | 10000 | AND **Imediato**
-17 | 10001 | OR **Imediato**
-18 | 10010 | NAND **Imediato**
-19 | 10011 | XOR **Imediato**
-20 | 10100 | Soma (Inteiros) **Imediato**
-21 | 10101 | Soma (Naturais) **Imediato**
-22 | 10110 | Subtração (Naturais) **Imediato**
-23 | 10111 | Deslocamento para Esquerda **Imediato**
-24 | 11000 | Deslocamento para Direita **Imediato**
-25 | 11001 | Deslocamento para Direita c/ Sinal **Imediato**
-26 | 11010 | ROTL **Imediato**
-27 | 11011 | ROTR **Imediato**
-28 | 11100 | SLT **Imediato**
+16 | 10000 | AND **Imediato** :white_check_mark:
+17 | 10001 | OR **Imediato** :white_check_mark:
+18 | 10010 | NAND **Imediato** :white_check_mark:
+19 | 10011 | XOR **Imediato** :white_check_mark:
+20 | 10100 | Soma (Inteiros) **Imediato** :white_check_mark:
+21 | 10101 | Soma (Naturais) **Imediato** :white_check_mark:
+22 | 10110 | Subtração (Naturais) **Imediato** :white_check_mark:
+23 | 10111 | Deslocamento para Esquerda **Imediato** :white_check_mark:
+24 | 11000 | Deslocamento para Direita **Imediato** :white_check_mark:
+25 | 11001 | Deslocamento para Direita c/ Sinal **Imediato** :white_check_mark:
+26 | 11010 | ROTL **Imediato** :white_check_mark:
+27 | 11011 | ROTR **Imediato** :white_check_mark:
+28 | 11100 | SLT **Imediato** :white_check_mark:
 29 | 11101 |
 30 | 11110 |
 31 | 11111 |
