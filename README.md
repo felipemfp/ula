@@ -17,6 +17,7 @@
 - [1º Etapa](1-etapa.md)
 - [2º Etapa](2-etapa.md)
 - [3º Etapa](3-etapa.md)
+- [4º Etapa](4-etapa.md)
 
 ---
 
