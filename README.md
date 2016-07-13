@@ -38,9 +38,9 @@ Nº | Seleção | Operação
 10 | 01010 | ROTL :white_check_mark:
 11 | 01011 | ROTR :white_check_mark:
 12 | 01100 | SLT :white_check_mark:
-13 | 01101 | JUMP
-14 | 01110 | BEQ
-15 | 01111 | BNQ
+13 | 01101 | 
+14 | 01110 | 
+15 | 01111 | 
 16 | 10000 | AND **Imediato** :white_check_mark:
 17 | 10001 | OR **Imediato** :white_check_mark:
 18 | 10010 | NAND **Imediato** :white_check_mark:
@@ -54,6 +54,6 @@ Nº | Seleção | Operação
 26 | 11010 | ROTL **Imediato** :white_check_mark:
 27 | 11011 | ROTR **Imediato** :white_check_mark:
 28 | 11100 | SLT **Imediato** :white_check_mark:
-29 | 11101 |
-30 | 11110 |
-31 | 11111 |
+29 | 11101 | BEQ
+30 | 11110 | BNQ
+31 | 11111 | JUMP
