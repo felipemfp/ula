@@ -2,6 +2,8 @@
 
 Realizar fatorial.
 
+#### Lógica
+
 ```
 registrador $0 = 0
 registrador $1 = resultado
@@ -21,14 +23,16 @@ registrador $3 = contador
 
 ```
 
+#### Script para gerar comandos
+
 ```python
 SUM = 5
 SUMI = 21
 SUB = 6
 SUBI = 22
-BEQ = 14
-BNQ = 15
-JUMP = 13
+BEQ = 29
+BNQ = 30
+JUMP = 31
 
 x = [
 	(SUMI, 1, 0, 0, 5),
@@ -47,4 +51,19 @@ for y in x:
 	b = '{:05b}{:05b}{:05b}{:05b}{:012b}'.format(*y)
 	print('{:x}'.format(int(b, 2)))
 
+```
+
+#### Comandos
+
+```
+a8400005
+b0820001
+ea843006
+28422000
+a8c60001
+fa800003
+30c63000
+b0840001
+f2840003
+fa820009
 ```
