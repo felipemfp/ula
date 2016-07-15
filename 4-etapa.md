@@ -2,33 +2,6 @@
 
 Realizar fatorial.
 
-#### Lógica
-
-```
-registrador $0 = 0
-registrador $1 = resultado
-registrador $2 = atual
-registrador $3 = contador
-
-0. (0, 0, 0, 0, 0)
-1. zerar $0 (SUB, 0, 0, 0, 0)
-2. zerar $1 (SUB, 1, 1, 1, 0)
-3. zerar $2 (SUB, 2, 2, 2, 0)
-4. zerar $3 (SUB, 3, 3, 3, 0)
-5. pegar n do IMM e colocar no $1 (SUMI, 1, 0, 0, 5)
-6. pegar $1 e diminuir 1 e colocar no $2 (SUBI, 2, 1, 0, 1)
-7. verificar se $3 é igual a $2, pular para endereco 11 (BEQ, 16, 2, 3, 4)
-8. somar $1 com $2 e colocar no $1 (SUM, 1, 1, 2, 0)
-9. somar $3 com 1 (SUMI, 3, 3, 0, 1)
-10. pular para endereco 7 (JUMP, 16, 0, 0, 7)
-11. zerar $3 (SUB, 3, 3, 3, 0)
-12. diminuir 1 do $2 (SUBI, 2, 2, 0, 1)
-13. verificar se $2 é diferente de $0, pular para endereco 15 (BNQ, 16, 2, 0, 2)
-14. pular para endereco 11 (JUMP, 16, 1, 0, 14)
-15. pular para endereco 7 (JUMP, 16, 1, 0, 7)
-
-```
-
 #### Script para gerar comandos
 
 ```python
@@ -41,22 +14,26 @@ BNQ = 14
 JUMP = 31
 
 x = [
-	(0, 0, 0, 0, 0), 
-	(SUB, 0, 0, 0, 0), 
-	(SUB, 1, 1, 1, 0), 
-	(SUB, 2, 2, 2, 0), 
-	(SUB, 3, 3, 3, 0),
-	(SUMI, 1, 0, 0, 5), 
-	(SUBI, 2, 1, 0, 1), 
-	(BEQ, 16, 2, 3, 4), 
-	(SUM, 1, 1, 2, 0),
-	(SUMI, 3, 3, 0, 1), 
-	(JUMP, 16, 0, 0, 7), 
-	(SUB, 3, 3, 3, 0), 
-	(SUBI, 2, 2, 0, 1), 
-	(BNQ, 16, 2, 0, 2), 
-	(JUMP, 16, 1, 0, 14),
-	(JUMP, 16, 1, 0, 7)
+	(0, 0, 0, 0, 0), 		# 00. faz nada
+	(SUB, 0, 0, 0, 0), 		# 01. zera o $0 (zero)
+	(SUB, 1, 1, 1, 0), 		# 02. zera o $1 (valor)
+	(SUB, 2, 2, 2, 0), 		# 03. zera o $2 (resultado)
+	(SUB, 3, 3, 3, 0), 		# 04. zera o $3 (atual)
+	(SUB, 4, 4, 4, 0), 		# 05. zera o $4 (contador)
+	(SUMI, 1, 0, 0, 5), 	# 06. colocar IMM (5) no $1
+	(SUM, 2, 1, 0, 0), 		# 07. colocar $1 no $2
+	(SUM, 3, 1, 0, 1), 		# 08. colocar $1 no $3
+	(SUBI, 3, 3, 0, 1), 	# 09. reduzir 1 do $3
+	(BEQ, 20, 3, 2, 4), 	# 10. verificar se $3 é igual a $4, entao pular 4 enderecos
+	(SUM, 2, 2, 1, 0),		# 11. somar $2 com $1
+	(SUMI, 4, 4, 0, 1), 	# 12. somar $4 com 1
+	(JUMP, 20, 0, 0, 10), 	# 13. voltar para 10
+	(SUB, 4, 4, 4, 0), 		# 14. zerar $4
+	(SUBI, 3, 3, 0, 1), 	# 15. reduzir 1 do $3
+	(SUBI, 1, 1, 0, 1), 	# 16. reduzir 1 do $1
+	(BNQ, 20, 3, 0, 2), 	# 17. verificar se $3 é diferente de $0, entao pular 2 enderecos
+	(JUMP, 20, 0, 0, 18),   # 18. voltar para 18
+	(JUMP, 20, 0, 0, 10)	# 19. voltar para 10
 ]
 
 for y in x:
@@ -64,7 +41,7 @@ for y in x:
 	print('{:08x}'.format(int(b, 2)))
 
 
-print('Expected Rx:', '{:b}'.format(120))
+print('Expected Rx:', '{:032b}'.format(120))
 
 ```
 
