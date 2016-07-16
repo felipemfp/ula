@@ -23,16 +23,17 @@ x = [
 	(SUMI, 1, 0, 0, 5), 	# 06. colocar IMM (5) no $1
 	(SUM, 3, 1, 0, 1), 		# 07. colocar $1 no $3
 	(SUBI, 3, 3, 0, 1), 	# 08. reduzir 1 do $3
-	(BEQ, 20, 3, 2, 4), 	# 09. verificar se $3 é igual a $4, entao pular 4 enderecos
+	(BEQ, 20, 3, 4, 4), 	# 09. verificar se $3 é igual a $4, entao pular 4 enderecos
 	(SUM, 2, 2, 1, 0),		# 10. somar $2 com $1
 	(SUMI, 4, 4, 0, 1), 	# 11. somar $4 com 1
-	(JUMP, 20, 0, 0, 10), 	# 12. voltar para 9
+	(JUMP, 20, 0, 0, 9), 	# 12. voltar para 9
 	(SUB, 4, 4, 4, 0), 		# 13. zerar $4
 	(SUBI, 3, 3, 0, 1), 	# 14. reduzir 1 do $3
-	(SUBI, 1, 1, 0, 1), 	# 15. reduzir 1 do $1
-	(BNQ, 20, 3, 0, 2), 	# 16. verificar se $3 é diferente de $0, entao pular 2 enderecos
-	(JUMP, 20, 0, 0, 18),   # 17. voltar para 17
-	(JUMP, 20, 0, 0, 10)	# 18. voltar para 9
+	(SUM, 1, 2, 0, 1), 		# 15. colocar $2 no $1
+	(SUB, 2, 2, 2, 0), 		# 16. zerar $2
+	(BNQ, 20, 3, 0, 2), 	# 17. verificar se $3 é diferente de $0, entao pular 2 enderecos
+	(JUMP, 20, 1, 0, 18),   # 18. voltar para 18
+	(JUMP, 20, 0, 0, 9)		# 19. voltar para 9
 ]
 
 for y in x:
