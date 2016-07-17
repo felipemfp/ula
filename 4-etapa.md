@@ -5,6 +5,8 @@ Realizar fatorial.
 #### Script para gerar comandos
 
 ```python
+NUMBER = 5
+
 SUM = 5
 SUMI = 21
 SUB = 6
@@ -20,7 +22,7 @@ x = [
 	(SUB, 2, 2, 2, 0), 		# 03. zera o $2 (resultado)
 	(SUB, 3, 3, 3, 0), 		# 04. zera o $3 (atual)
 	(SUB, 4, 4, 4, 0), 		# 05. zera o $4 (contador)
-	(SUMI, 1, 0, 0, 5), 	# 06. colocar IMM (5) no $1
+	(SUMI, 1, 0, 0, NUMBER),# 06. colocar IMM (5) no $1
 	(SUM, 3, 1, 0, 1), 		# 07. colocar $1 no $3
 	(SUBI, 3, 3, 0, 1), 	# 08. reduzir 1 do $3
 	(BEQ, 20, 3, 4, 4), 	# 09. verificar se $3 é igual a $4, entao pular 4 enderecos
@@ -41,8 +43,9 @@ for y in x:
 	print('{:08x}'.format(int(b, 2)))
 
 
-print('Expected Rx:', '{:032b}'.format(120))
+f = lambda x: 1 if x == 0 else x * f(x-1)
 
+print('Number: {1}\nExpected Rx: {0:032b}\nDecimal: {0}'.format(f(NUMBER), NUMBER))
 ```
 
 #### Comandos
@@ -53,15 +56,22 @@ print('Expected Rx:', '{:032b}'.format(120))
 30421000
 30842000
 30c63000
+31084000
 a8400005
-b0820001
-6c043004
-28422000
-a8c60001
-fc000007
-30c63000
-b0840001
-74040002
-fc02000e
-fc020007
+28c20001
+b0c60001
+6d064004
+28841000
+a9080001
+fd000009
+31084000
+b0c60001
+28440001
+30842000
+75060002
+fd020012
+fd000009
+Number: 5
+Expected Rx: 00000000000000000000000001111000
+Decimal: 120
 ```
