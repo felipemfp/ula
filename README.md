@@ -6,7 +6,7 @@
 
 **Período**: 1º
 
-**Disciplina**: Programação de Computadores
+**Disciplina**: Sistemas Digitais
 
 **Professor**: Eduardo Braulio
 
