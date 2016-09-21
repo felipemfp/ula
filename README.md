@@ -29,31 +29,31 @@ Nº | Seleção | Operação
 1 | 00001 | OR :white_check_mark:
 2 | 00010 | NAND :white_check_mark:
 3 | 00011 | XOR :white_check_mark:
-4 | 00100 | Soma (Inteiros) :white_check_mark:
-5 | 00101 | Soma (Naturais) :white_check_mark:
-6 | 00110 | Subtração (Naturais) :white_check_mark:
-7 | 00111 | Deslocamento para Esquerda :white_check_mark:
-8 | 01000 | Deslocamento para Direita :white_check_mark:
-9 | 01001 | Deslocamento para Direita c/ Sinal :white_check_mark:
+4 | 00100 | SUM (Inteiros) :white_check_mark:
+5 | 00101 | SUMN (Naturais) :white_check_mark:
+6 | 00110 | SUB (Naturais) :white_check_mark:
+7 | 00111 | SHILFLEFT :white_check_mark:
+8 | 01000 | SHILFTRIGHT :white_check_mark:
+9 | 01001 | SHILFTRIGHTS :white_check_mark:
 10 | 01010 | ROTL :white_check_mark:
 11 | 01011 | ROTR :white_check_mark:
 12 | 01100 | SLT :white_check_mark:
 13 | 01101 | BEQ :white_check_mark:
 14 | 01110 | BNQ :white_check_mark:
-15 | 01111 | 
-16 | 10000 | AND **Imediato** :white_check_mark:
-17 | 10001 | OR **Imediato** :white_check_mark:
-18 | 10010 | NAND **Imediato** :white_check_mark:
-19 | 10011 | XOR **Imediato** :white_check_mark:
-20 | 10100 | Soma (Inteiros) **Imediato** :white_check_mark:
-21 | 10101 | Soma (Naturais) **Imediato** :white_check_mark:
-22 | 10110 | Subtração (Naturais) **Imediato** :white_check_mark:
-23 | 10111 | Deslocamento para Esquerda **Imediato** :white_check_mark:
-24 | 11000 | Deslocamento para Direita **Imediato** :white_check_mark:
-25 | 11001 | Deslocamento para Direita c/ Sinal **Imediato** :white_check_mark:
-26 | 11010 | ROTL **Imediato** :white_check_mark:
-27 | 11011 | ROTR **Imediato** :white_check_mark:
-28 | 11100 | SLT **Imediato** :white_check_mark:
-29 | 11101 | 
-30 | 11110 | 
+15 | 01111 |
+16 | 10000 | IAND **Imediato** :white_check_mark:
+17 | 10001 | IOR **Imediato** :white_check_mark:
+18 | 10010 | INAND **Imediato** :white_check_mark:
+19 | 10011 | IXOR **Imediato** :white_check_mark:
+20 | 10100 | ISUM (Inteiros) **Imediato** :white_check_mark:
+21 | 10101 | ISUMN (Naturais) **Imediato** :white_check_mark:
+22 | 10110 | ISUB (Naturais) **Imediato** :white_check_mark:
+23 | 10111 | ~~ISHILFLEFT **Imediato**~~ :white_check_mark:
+24 | 11000 | ~~ISHILFTRIGHT **Imediato**~~ :white_check_mark:
+25 | 11001 | ~~ISHILFTRIGHTS **Imediato**~~ :white_check_mark:
+26 | 11010 | ~~IROTL **Imediato**~~ :white_check_mark:
+27 | 11011 | ~~IROTR **Imediato**~~ :white_check_mark:
+28 | 11100 | ISLT **Imediato** :white_check_mark:
+29 | 11101 |
+30 | 11110 |
 31 | 11111 | JUMP :white_check_mark:
