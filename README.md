@@ -48,12 +48,12 @@ Nº | Seleção | Operação
 20 | 10100 | ISUMI (Inteiros) **Imediato** :white_check_mark:
 21 | 10101 | ISUM (Naturais) **Imediato** :white_check_mark:
 22 | 10110 | ISUB (Naturais) **Imediato** :white_check_mark:
-23 | 10111 | ~~ISHIFTLEFT **Imediato**~~ :white_check_mark:
-24 | 11000 | ~~ISHIFTRIGHT **Imediato**~~ :white_check_mark:
-25 | 11001 | ~~ISHIFTRIGHTS **Imediato**~~ :white_check_mark:
-26 | 11010 | ~~IROTL **Imediato**~~ :white_check_mark:
-27 | 11011 | ~~IROTR **Imediato**~~ :white_check_mark:
+23 | 10111 |
+24 | 11000 |
+25 | 11001 |
+26 | 11010 |
+27 | 11011 |
 28 | 11100 | ISLT **Imediato** :white_check_mark:
-29 | 11101 |
-30 | 11110 |
+29 | 11101 | LOAD :white_check_mark:
+30 | 11110 | STORE
 31 | 11111 | JUMP :white_check_mark:
