@@ -55,5 +55,5 @@ Nº | Seleção | Operação
 27 | 11011 |
 28 | 11100 | ISLT **Imediato** :white_check_mark:
 29 | 11101 | LOAD :white_check_mark:
-30 | 11110 | STORE
+30 | 11110 | STORE :white_check_mark:
 31 | 11111 | JUMP :white_check_mark:
