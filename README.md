@@ -4,7 +4,7 @@
 
 **Curso**: Análise e Desenvolvimento de Sistemas
 
-**Período**: 1º
+**Período**: 2016.1
 
 **Disciplina**: Sistemas Digitais
 
